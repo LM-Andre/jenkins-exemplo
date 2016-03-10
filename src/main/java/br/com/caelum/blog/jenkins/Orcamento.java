@@ -1,13 +1,17 @@
 package br.com.caelum.blog.jenkins;
-public class Orcamento {
 
-	private double valor;
+public class Orcamento
+{
 
-	public Orcamento(double valor) {
+	private final double valor;
+
+	public Orcamento(final double valor)
+	{
 		this.valor = valor;
 	}
 
-	public double getValor() {
+	public double getValor()
+	{
 		return valor;
 	}
 
